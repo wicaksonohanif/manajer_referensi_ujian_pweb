@@ -2,7 +2,7 @@
 if (isset($_GET['id'])) {
     $id = $_GET['id'];
 
-    $servername = 'localhost';
+    $servername = '127.0.0.1';
     $username = 'root';
     $password = '';
     $database = 'db_references';
